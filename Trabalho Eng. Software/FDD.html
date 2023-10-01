@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <title>FDD - Feature Driven Development</title>
+</head>
+<body>
+    <main class="conteudo_principal">
+        <div>
+            <h1>FDD - Feature Driven Development</h1>
+        </div>
+        <div>
+            <h3>HISTORIA</h3>
+        </div>
+        <div>
+            <p>O FDD  foi criado em 1997 num grande projeto em java para o United Overseas Bank, em Cingapura.
+            </p>
+            <p>
+                Nasceu  a partir da experiencia de analise e modelagem orientadas por objetos de peter Coad e de gerenciamento de projetos por Jeff de Luca.
+                A metodologia FDD foi aplicada pela primeira vez em 1997, 
+                durante um projeto de desenvolvimento de software para um grande banco em Singapura. 
+            </p>
+        </div>
+        <div>
+            <h3>O QUE É</h3>
+        </div>
+        <div>
+            <p>
+                É uma metodologia ágil para gerenciamento e desenvolvimento de software.
+            </p>
+            <p>
+                Ela combina as melhores praticas do gerenciamento 
+                ágil de projetos com uma abordagem completa para Engenharia de software orientada por objeto.cc
+            </p>
+            <p>
+                Foi inicialmente publicada em 1999, 
+                no capitulo 6 do livro” Java Modeling in Color with UML”, 
+                de Peter Coad, Eric Lefebvre e Jeff de Luca.
+            </p>
+            <p>
+                A Metodologia foi criada com objetivo de diminuir os custos e tempo utilizados na execução de projetos. 
+                Com resultados tangíveis e funcionais.
+            </p>
+        </div>
+        <div>
+            <h3>
+                O FDD é dividido em duas fases:
+            </h3>
+        </div>
+        <div>
+            <ul>
+                <li>
+                  <h5>
+                    PLANEJAMENTO: Contem 3 etapas:
+                  </h5>  
+                  <p>
+                    DMA – Objetivo de desenvolver o modelo abrangente para o projeto e tem como resultado a confecção dos diagramas de classes e em sequencia a modelagem dos objetos.
+                  </p>
+                  <p>
+                    CLF – Tem como objetivo construir a lista de funcionalidades do sistema.
+                  </p>
+                  <p>
+                    PPF – Ela consiste fazer o planejamento com funcionalidades e nela que se determina a 
+                    sequencia de desenvolvimento levando a consideração as dependências entre as funcionalidades e em classes envolvidas. 
+                    Tambem nesta etapa os programadores lideres recebem os cronogramas e atividades definidas.
+                  </p>
+                </li>
+                <li>
+                    <h5>
+                        CONSTRUÇÃO: Cotem 2 etapas:
+                    </h5>
+                    <p>
+                        DPF – Nele são detalhados os requisitos para funcionalidade, 
+                        também são construído esqueletos de cada classe.
+                    </p>
+                    <p>
+                        CPF – Ela tem como objetivo a codificação, 
+                        ou seja o preenchimento de cada esqueleto e código. 
+                        Nesta etapa também, acontece os testes.
+                    </p>
+                </li>
+            </ul>
+        </div>
+        <div>
+            <ul>
+                <li>
+                    <h5>
+                        PRATICAS DO FDD
+                    </h5>
+                    <p style="padding-top: 50px;">
+                        <p style="font-weight: bold;">Modelagem dos objetos de domínio;</p> 
+                        Construção de diagramas de classes UML (Unified Modeling Language) 
+                        que descrevem os objetos relevantes dentro do domínio do problema, bem como os relacionamentos entre eles. 
+                        Para complementar os diagramas de classe UML, 
+                        são desenvolvidos diagramas de sequencia UML  que descrevem explicitamente como os objetos interagem para cumprir suas 
+                    </p>
+                </li>
+                <li>
+                    <p style="padding-top: 50px;">
+                        <p style="font-weight: bold;">Desenvolvendo através de funcionalidades; </p> 
+                        É feita a identificação das funcionalidades do sistemas (definidas pelo cliente). 
+                        Após isso, inicia-se o projeto e a construção de cada uma delas. 
+                        Uma vez identificadas as funcionalidades serão utilizadas para guiar o desenvolvimento no FDD, 
+                        tendo como objetivo mostrar o progresso através da implementação das mesmas. 
+                    </p>
+                    <p>
+                        A execução das funcionalidades, ou conjunto delas, não deve exercer de duas semanas.
+                    </p>
+                </li>
+                <li>
+                    <p style="padding-top: 50px;">
+                        <p style="font-weight: bold;">Propriedade individual das classes;</p> 
+                        Cada classe ou conjunto de classes é de responsabilidade do individuo. 
+                        Isso pode ser uma vantagem e uma grande desvantagem em alguns pontos de vista, 
+                        pois a saída do programador proprietário da classe pode gerar perda de tempo no projeto. 
+                    </p>
+                </li>
+                <li>
+                    <p style="padding-top: 50px;">
+                        <p style="font-weight: bold;">Equipes de funcionalidades;</p> 
+                        A prática da propriedade individual da classe atribui classes a desenvolvedores específicos. 
+                        Contudo sabe se que o desenvolvimento deve ser por funcionalidade.
+                        Por isso, são definidas equipes, com seus respectivos desenvolvedores líderes, 
+                        onde os componentes possuem as propriedades das classes, e é atribuído a eles um conjunto de funcionalidades.
+                        A equipe de funcionalidades deve ter  no mínimo 3 e no máximo 6 programadores envolvidos.
+                    </p>
+                </li>
+                <li>
+                    <p style="padding-top: 50px;">
+                        <p style="font-weight: bold;">Inspeções</p> 
+                        Devem ser feitas durante e ao final de cada iteração, para assegurar a qualidade do projeto e do código. 
+                        O objetivo principal das inspeções é a detecção de defeitos. 
+                        É uma ferramenta para eliminação de erros e uma grande oportunidade de aprendizado.
+                    </p>
+                </li>
+                <li>
+                    <p style="padding-top: 50px;">
+                        <p style="font-weight: bold;">Construções regulares; </p> 
+                        Devem ocorrer durante as iterações, na execução e um conjunto de funcionalidades, para detectar, 
+                        prematuramente, erros de integração. 
+                        Uma construção regular assegura também que haja sempre um sistema atual e executável para ser apresentado ao cliente.
+                    </p>
+                </li>
+                <li>
+                    <p style="padding-top: 50px;">
+                        <p style="font-weight: bold;">Administração de configuração; </p> 
+                        Utilização de um sistema de um controle de versões para datar e manter um histórico das alterações feitas em cada classe. 
+                        Bem como, no que se refere aos requisitos, 
+                        análise e projeto de modo que facilite a visualização das modificações feitas.
+                    </p>
+                </li>
+                <li>
+                    <p style="padding-top: 50px;">
+                        <p style="font-weight: bold;">Relatórios de resultados;</p> 
+                        O FDD sugere que todos os resultados ocorridos durante o projeto sejam disseminados para todos os membros da equipe e clientes.
+                    </p>
+                </li>
+            </ul>
+        </div>
+        <div>
+            <h3>
+                FASES DO FDD
+            </h3>
+        </div>
+        <div>
+           <img src="imagem/imagem1.jpg" alt="Fases do FDD ">
+        </div>
+        <div>
+            <div>
+                <h3>Vantagens do FDD</h3>
+            </div>
+            <div>
+                <ul>
+                    <li>
+                        
+                       <p>
+                            Recomendado para qualquer tipo de desenvolvimento.
+                       </p> 
+                    
+                    </li>
+                    <li>
+                        
+                        <p>
+                            Foco em “características de valor para o cliente”
+                        </p>
+                
+                    </li>
+                    <li>
+                        <p>
+                            FDD prioriza aquilo que o cliente prioriza.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            FDD possui requisitos mais formais.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Seus princípios e práticas proporcionam um equilibro entre as filosofias  tradicionais e as mais extremas, proporcionando uma transição mais suave para organizações mais conservadoras;
+                        </p>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <div>
+                    <h3>Desvantagens</h3>
+                </div>
+                <div>
+                    <ul>
+                        <li>
+                            
+                           <p>
+                                Ainda existem questionamento sobre a eficácia / aplicabilidade sobre o tamanho mini de um time FDD.
+                           </p> 
+                        
+                        </li>
+                        <li>
+                            
+                            <p>
+                                Controvérsias sobre o tamanho mínimo de um time FDD;
+                            </p>
+                    
+                        </li>
+                       algum problema, essa reunião não tem o propósito de pensar em soluções.
+                    </p >
+                </li>
+                </ul>
+            </div>
+            <div>
+                <h1>
+                    Considerações finais
+                </h1>
+            </div>
+            <div>
+                <p>
+                    É um método ágil e altamente adaptativo.
+                </p>
+                <p>
+                    Oferece vantagens dos métodos pesados.
+                </p>
+                <p>
+                    Oferece vantagens dos métodos extremamente ágeis.
+                </p>
+                <p>
+                    É orientada as necessidades dos clientes, gerentes e desenvolvedores.
+                </p>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
